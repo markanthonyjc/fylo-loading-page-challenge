@@ -89,7 +89,6 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    /*padding: 1em;*/
     margin: 1.5em 1.5em 3em 1.5em;
 }
 
@@ -115,6 +114,21 @@ body {
 
 .loading-page__header-navigation > ul li {
     margin-left: 1.5em;
+}
+
+.loading-page__header-navigation >
+ul >
+li >
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.loading-page__header-navigation >
+ul >
+li >
+a:hover {
+    color: hsl(255, 59%, 65%);
 }
 
 @media (min-width: 425px) {
