@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+<header class="loading-page__header">
+    <h1 class="visually-hidden">Fylo</h1>
+    <img src="images/logo.svg" alt="Fylo page logo">
+    <nav class="loading-page__header-navigation" role="navigation">
+        <ul>
+            <li>Features</li>
+            <li>Team</li>
+            <li>Sign In</li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section class="loading-page__file-mgmt-info-container">
+        <figure class="loading-page__image-container">
+            <img class="loading-page__image loading-page__image--fileMgnt" src="images/illustration-1.svg"
+                 alt="Image of a folder containing files">
+        </figure>
+        <div class="loading-page__detail-container">
+            <div class="loading-page__description-container">
+                <h2>All your files in one secure location, accessible anywhere.</h2>
+                <p>Fylo stores your most important files in one secure location.
+                    Access them wherever you need. share and collaborate with friends,
+                    family, and co-workers.</p>
+            </div>
+            <form class="loading-page__get-started-form" action="">
+                <label class="visually-hidden" for="get-started-email">Email:</label>
+                <div class="input-group">
+                    <input class="input-control" type="text" name="get-started-email" id="get-started-email"
+                           placeholder="Enter your email...">
+                </div>
+                <button class="get-started-button" type="submit">Get Started</button>
+            </form>
+        </div>
+    </section>
+    <div class="loading-page__image-separator-container">
+        <img src="images/bg-curve-mobile.svg" alt="Center parting image">
+    </div>
+    <section class="loading-page__file-access-info-container">
+        <figure class="loading-page__image-container">
+            <img class="loading-page__image loading-page__image--fileAccess" src="images/illustration-2.svg"
+                 alt="Image of 3 people interacting on separate information panels">
+        </figure>
+        <div class="loading-page__detail-container">
+            <div class="loading-page__description-container">
+                <h2>Stay productive, wherever you are</h2>
+                <p>Never let location be an issue when accessing your files. Fylo has you
+                    covered for all of your file storage needs.</p>
+                <br>
+                <p>Securely share files and folders with friends, family and colleagues for
+                    live collaboration. No email attachments required!</p>
+            </div>
+            <div class="loading-page__link-container">
+                <a href="#">
+                    <span>See how Fylo works</span>
+                    <img src="images/icon-arrow.svg" alt="">
+                </a>
+            </div>
+            <div class="loading-page__testimonial-card-container">
+                <img src="images/icon-quotes.svg" alt="Double quote image">
+                <blockquote>
+                    <p>Fylo has improved our team productivity by an order of magnitude. Since
+                        making the switch our team has become a well-oiled collaboration machine.</p>
+                </blockquote>
+                <figure class="loading-page__author-container">
+                    <img src="images/avatar-testimonial.jpg" alt="">
+                    <figcaption class="loading-page__author-info-container">
+                        <p>Kyle Burton</p>
+                        <p>Founder & CEO, Huddle</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+    <section class="loading-page__offer-container">
+        <div class="loading-page__detail-container">
+            <h2>Get early access today</h2>
+            <p>It only takes a minute to sign up and our free starter tier is extremely generous.
+                If you have any questions, our support team would be happy to help you.</p>
+        </div>
+        <form class="loading-page__free-get-started-form" action="">
+            <label class="visually-hidden" for="free-get-started-email">Email:</label>
+            <div class="input-group">
+                <input class="input-control" type="text" name="free-get-started-email" id="free-get-started-email"
+                       placeholder="email@example.com">
+            </div>
+            <div>
+                <button class="get-started-button" type="submit">Get Started For Free</button>
+            </div>
+        </form>
+    </section>
+</main>
+<footer class="loading-page__contact-container">
+    <div class="loading-page__contact-logo">
+        <img src="images/logo-white.svg" alt="Fylo page logo">
+    </div>
+    <section class="loading-page__contact-detail">
+        <div class="loading-page__contact-detail-info">
+            <div>
+                <img src="images/icon-phone.svg" alt="">
+                <p>Phone: +1-543-123-4567</p>
+            </div>
+            <div>
+                <img src="images/icon-email.svg" alt="">
+                <span>example@fylo.com</span>
+            </div>
+        </div>
+        <nav class="loading-page__contact-navigation" role="navigation">
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+        <nav class="loading-page__contact-navigation" role="navigation">
+            <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+        </nav>
+        <div class="loading-page__contact-detail-social">
+            <a href="#">
+                <img src="images/icon-facebook.svg" alt="">
+            </a>
+            <a href="#">
+                <img src="images/icon-twitter.svg" alt="">
+            </a>
+            <a href="#">
+                <img src="images/icon-instagram.svg" alt="">
+            </a>
+        </div>
+    </section>
+</footer>
+<script src="assets/js/index.js"></script>
+</body>
+</html>
