@@ -371,7 +371,7 @@ p {
 
 @media (min-width: 1024px) {
     .loading-page__image-separator-container > img {
-        content: url('/images/bg-curve-desktop.svg');
+        content: url('../../images/bg-curve-desktop.svg');
     }
 }
 
